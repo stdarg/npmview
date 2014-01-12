@@ -1,6 +1,6 @@
 {
   "name": "npmview",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple wrapper to programmatically use NPM to view a module's information.",
   "main": "index.js",
   "scripts": {
