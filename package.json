@@ -1,0 +1,35 @@
+{
+  "name": "npmview",
+  "version": "0.0.1",
+  "description": "A simple wrapper to programmatically use NPM to view a module's information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter list test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdarg/npmview.git"
+  },
+  "keywords": [
+    "simple",
+    "wrapper",
+    "npm",
+    "view",
+    "module"
+  ],
+  "author": "Edmond Meinfelder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stdarg/npmview/issues"
+  },
+  "homepage": "https://github.com/stdarg/npmview",
+  "dependencies": {
+    "async-err": "0.0.1",
+    "have": "0.2.3",
+    "npm": "1.3.23",
+    "semver": "2.2.1"
+  },
+  "devDependencies": {
+    "mocha": "1.17.0"
+  }
+}
