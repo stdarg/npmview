@@ -1,11 +1,12 @@
 'use strict';
+module.exports = view;
 var have = require('have');
 var npm = require('npm');
 var asyncerr = require('async-err');
 var inspect = require('util').inspect;
 var semver = require('semver');
 
-module.exports = function (name, cb) {
+function view(name, cb) {
     have(arguments, { name: 'string', cb: 'function' });
 
     if (!name.length)
@@ -31,4 +32,4 @@ module.exports = function (name, cb) {
             return cb(new Error('Bad data received: '+inspect(data)));
         });
     });
-};
+}

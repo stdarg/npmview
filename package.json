@@ -1,6 +1,6 @@
 {
   "name": "npmview",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple wrapper to programmatically use NPM to view a module's information.",
   "main": "index.js",
   "scripts": {
@@ -24,12 +24,12 @@
   },
   "homepage": "https://github.com/stdarg/npmview",
   "dependencies": {
-    "async-err": "0.0.1",
+    "async-err": "0.0.2",
     "have": "0.2.3",
-    "npm": "1.3.23",
+    "npm": "1.3.26",
     "semver": "2.2.1"
   },
   "devDependencies": {
-    "mocha": "1.17.0"
+    "mocha": "1.17.1"
   }
 }
